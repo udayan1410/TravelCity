@@ -1,0 +1,23 @@
+public class Api {
+    private static SuperHeroInterface superHeroInterface=null;
+    public static final String URL="https://api.myjson.com/bins/";
+
+
+    public static SuperHeroInterface getInstance(){
+        if(superHeroInterface == null){
+            Retrofit retrofit = new Retrofit.Builder()
+                    .baseUrl(URL)
+                    .addConverterFactory(GsonConverterFactory.create())
+                    .build();
+
+            superHeroInterface = retrofit.create(SuperHeroInterface.class);
+        }
+        return superHeroInterface;
+    }
+
+    public interface SuperHeroInterface{
+        @GET("cn8cx")
+        Call<Model2> getData();
+
+    }
+}

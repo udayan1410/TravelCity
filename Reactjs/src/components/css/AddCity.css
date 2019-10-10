@@ -1,0 +1,155 @@
+.background {
+  margin-top: 60px;
+  background: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 7px;
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+}
+
+.enterDetailsText {
+  text-align: center;
+  color: #ff4133;
+  padding: 10px;
+  text-shadow: 2px 1px 2px #9c0c1a;
+}
+
+.inputField {
+  height: 30px;
+  width: 260px;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: table-cell;
+}
+
+.inputFieldWrapper {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.5s;
+  display: table;
+}
+
+.row {
+  display: table-row;
+}
+
+.inputFieldLabel {
+  color: #ff4133;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: table-cell;
+}
+
+.inputFieldLabel2 {
+  color: #ff4133;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 3px;
+  display: table-cell;
+
+  padding-left: 20px;
+}
+
+.inputFieldLabel3 {
+  color: #ff4133;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 250px;
+}
+
+.addOrRemoveElementWrapper {
+  margin-left: 66%;
+  margin-right: 22%;
+  padding: 4px;
+}
+
+.addOrRemoveElement {
+  cursor: pointer;
+  background: none;
+  border: 1px solid #ff4133;
+  color: #9c0c1a;
+  transition: 0.4s;
+  border-radius: 3px;
+  outline: 0;
+  padding: 6px;
+}
+
+.addOrRemoveElement:hover {
+  background: #ff4133;
+  color: white;
+}
+
+.formfield {
+  vertical-align: middle;
+}
+
+#halfhr {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+#selectImages {
+  background: none;
+  border: 1px solid #ff4133;
+  color: #9c0c1a;
+  transition: 0.4s;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 8px;
+}
+
+#selectImages:hover {
+  background: #ff4133;
+  color: white;
+}
+
+.moduleCount {
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ac3b46;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.TimingDetails {
+  display: inline;
+  margin-right: 80px;
+}
+
+.inputFieldTiming {
+  margin-left: 20px;
+}
+
+#dropdown {
+  margin-left: 50px;
+  height: 40px;
+  width: 150px;
+}
+
+.buttonWrapper {
+  margin-left: 45%;
+  margin-top: 20px;
+}
+
+.submitButton {
+  text-align: center;
+  color: #ff4133;
+  background: none;
+  cursor: pointer;
+  height: 50px;
+  font-size: 20px;
+  width: 140px;
+  border: 1px solid #9c0c1a;
+  transition: 0.5s;
+  border-radius: 4px;
+}
+
+.submitButton:hover {
+  background: #ff4133;
+  color: aliceblue;
+}
