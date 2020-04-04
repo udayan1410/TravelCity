@@ -11,8 +11,8 @@ class Welcome extends Component {
   render() {
     return (
       <div>
-        <p className="title">TravelCity</p>
-
+        <p className="title">Travel City</p>
+		
         <div className="Navbar">
           <p className="headerElement">Wander.</p>
           <p className="headerElement">Explore.</p>
